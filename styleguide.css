@@ -1,0 +1,18 @@
+:root {
+  --blue: rgba(24, 160, 251, 1);
+  --background-toolbar: rgba(44, 44, 44, 1);
+  --white: rgba(255, 255, 255, 1);
+  --fg-100: rgba(0, 0, 0, 0.8);
+  --multiplayer-g: rgba(27, 196, 125, 1);
+  --multiplayer-p: rgba(144, 124, 255, 1);
+  --multiplayer-b: rgba(24, 160, 251, 1);
+  --black-8: rgba(0, 0, 0, 0.8);
+  --purple: rgba(144, 124, 255, 1);
+  --multiplayer-y: rgba(255, 199, 0, 1);
+  --neg-UI-11-medium-font-family: "Inter-Medium", Helvetica;
+  --neg-UI-11-medium-font-weight: 500;
+  --neg-UI-11-medium-font-size: 11px;
+  --neg-UI-11-medium-letter-spacing: 0.11px;
+  --neg-UI-11-medium-line-height: 16px;
+  --neg-UI-11-medium-font-style: normal;
+}

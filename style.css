@@ -1,0 +1,909 @@
+.figmer {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.figmer .overlap-wrapper {
+  background-color: #ffffff;
+  width: 595px;
+  height: 842px;
+}
+
+.figmer .overlap {
+  position: relative;
+  height: 842px;
+  top: -2px;
+}
+
+.figmer .frame {
+  position: absolute;
+  width: 595px;
+  height: 842px;
+  top: 0;
+  left: 0;
+}
+
+.figmer .overlap-group {
+  position: relative;
+  height: 852px;
+}
+
+.figmer .div {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 15px;
+  position: absolute;
+  top: 0;
+  left: 22px;
+}
+
+.figmer .line {
+  position: relative;
+  width: 1px;
+  height: 840px;
+  object-fit: cover;
+}
+
+.figmer .img {
+  width: 1px;
+  height: 840px;
+  margin-right: -1px;
+  position: relative;
+  object-fit: cover;
+}
+
+.figmer .frame-2 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+  position: absolute;
+  top: 15px;
+  left: 0;
+}
+
+.figmer .line-2 {
+  width: 574px;
+  height: 1px;
+  position: relative;
+  object-fit: cover;
+}
+
+.figmer .line-3 {
+  width: 595px;
+  height: 4px;
+  position: relative;
+  object-fit: cover;
+}
+
+.figmer .line-4 {
+  width: 595px;
+  height: 7px;
+  position: relative;
+  object-fit: cover;
+}
+
+.figmer .line-5 {
+  width: 595px;
+  height: 1px;
+  position: relative;
+  object-fit: cover;
+}
+
+.figmer .line-6 {
+  width: 595px;
+  height: 1px;
+  margin-bottom: -317px;
+  margin-right: -603px;
+  position: relative;
+  object-fit: cover;
+}
+
+.figmer .component {
+  position: absolute;
+  width: 595px;
+  height: 40px;
+  top: 2px;
+  left: 0;
+  background-color: var(--background-toolbar);
+}
+
+.figmer .tools-edit {
+  display: inline-flex;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--background-toolbar);
+}
+
+.figmer .img-wrapper {
+  position: relative;
+  width: 40px;
+  height: 40px;
+}
+
+.figmer .union {
+  position: absolute;
+  width: 14px;
+  height: 11px;
+  top: 14px;
+  left: 13px;
+}
+
+.figmer .tool-move {
+  position: relative;
+  width: 48px;
+  height: 40px;
+  background-color: #189ffa;
+}
+
+.figmer .union-2 {
+  position: absolute;
+  width: 24px;
+  height: 15px;
+  top: 12px;
+  left: 15px;
+}
+
+.figmer .union-wrapper {
+  position: relative;
+  width: 48px;
+  height: 40px;
+}
+
+.figmer .union-3 {
+  position: absolute;
+  width: 28px;
+  height: 16px;
+  top: 12px;
+  left: 13px;
+}
+
+.figmer .union-4 {
+  position: absolute;
+  width: 29px;
+  height: 16px;
+  top: 12px;
+  left: 12px;
+}
+
+.figmer .hand {
+  position: absolute;
+  width: 17px;
+  height: 20px;
+  top: 10px;
+  left: 10px;
+}
+
+.figmer .union-5 {
+  position: absolute;
+  width: 18px;
+  height: 16px;
+  top: 12px;
+  left: 10px;
+}
+
+.figmer .presentation-options {
+  display: inline-flex;
+  align-items: flex-start;
+  position: absolute;
+  top: 0;
+  left: 555px;
+}
+
+.figmer .toolbar-avatar {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  background-color: var(--background-toolbar);
+}
+
+.figmer .avatar-photo {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  top: 8px;
+  left: 8px;
+  background-image: url(https://app.gemoo.com/share/image-annotation/567086474552135680?codeId=v691dObBoagEa&origin=imageurlgenerator);
+  background-size: 100% 100%;
+}
+
+.figmer .group {
+  position: absolute;
+  width: 218px;
+  height: 53px;
+  top: 79px;
+  left: 27px;
+}
+
+.figmer .selection-bounds {
+  position: relative;
+  width: 220px;
+  height: 55px;
+  top: -1px;
+  left: -1px;
+  border: 1px solid;
+  border-color: var(--blue);
+}
+
+.figmer .n-n {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 0px 3px;
+  position: absolute;
+  top: 60px;
+  left: 56px;
+  background-color: var(--blue);
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.figmer .text-wrapper {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: var(--neg-UI-11-medium-font-family);
+  font-weight: var(--neg-UI-11-medium-font-weight);
+  color: var(--white);
+  font-size: var(--neg-UI-11-medium-font-size);
+  text-align: center;
+  letter-spacing: var(--neg-UI-11-medium-letter-spacing);
+  line-height: var(--neg-UI-11-medium-line-height);
+  white-space: nowrap;
+  font-style: var(--neg-UI-11-medium-font-style);
+}
+
+.figmer .corner {
+  top: -4px;
+  left: -4px;
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  background-color: var(--white);
+  border: 1px solid;
+  border-color: #189ffa;
+}
+
+.figmer .corner-2 {
+  top: 49px;
+  left: -4px;
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  background-color: var(--white);
+  border: 1px solid;
+  border-color: #189ffa;
+}
+
+.figmer .corner-3 {
+  top: -4px;
+  left: 214px;
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  background-color: var(--white);
+  border: 1px solid;
+  border-color: #189ffa;
+}
+
+.figmer .corner-4 {
+  top: 49px;
+  left: 214px;
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  background-color: var(--white);
+  border: 1px solid;
+  border-color: #189ffa;
+}
+
+.figmer .salman-nisar {
+  position: absolute;
+  top: 21px;
+  left: 24px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 700;
+  color: var(--fg-100);
+  font-size: 23px;
+  letter-spacing: -0.69px;
+  line-height: 10px;
+  white-space: nowrap;
+}
+
+.figmer .multiplayer {
+  top: 75px;
+  left: 299px;
+  position: absolute;
+  width: 32px;
+  height: 32px;
+}
+
+.figmer .overlap-2 {
+  position: relative;
+  width: 80px;
+  height: 50px;
+}
+
+.figmer .name {
+  display: inline-flex;
+  height: 18px;
+  align-items: center;
+  gap: 10px;
+  padding: 1px 4px;
+  position: absolute;
+  top: 32px;
+  left: 27px;
+  background-color: var(--multiplayer-g);
+  box-shadow: 0px 1px 4px #00000029;
+}
+
+.figmer .editor-move {
+  position: absolute;
+  width: 33px;
+  height: 36px;
+  top: 0;
+  left: 0;
+}
+
+.figmer .overlap-group-wrapper {
+  top: 73px;
+  left: 459px;
+  position: absolute;
+  width: 32px;
+  height: 32px;
+}
+
+.figmer .overlap-3 {
+  position: relative;
+  width: 79px;
+  height: 50px;
+}
+
+.figmer .name-wrapper {
+  display: inline-flex;
+  height: 18px;
+  align-items: center;
+  gap: 10px;
+  padding: 1px 4px;
+  position: absolute;
+  top: 32px;
+  left: 27px;
+  background-color: var(--multiplayer-p);
+  box-shadow: 0px 1px 4px #00000029;
+}
+
+.figmer .div-wrapper {
+  top: 56px;
+  left: 379px;
+  position: absolute;
+  width: 32px;
+  height: 32px;
+}
+
+.figmer .overlap-4 {
+  position: relative;
+  width: 72px;
+  height: 50px;
+}
+
+.figmer .name-2 {
+  display: inline-flex;
+  height: 18px;
+  align-items: center;
+  gap: 10px;
+  padding: 1px 4px;
+  position: absolute;
+  top: 32px;
+  left: 27px;
+  background-color: var(--multiplayer-b);
+  box-shadow: 0px 1px 4px #00000029;
+}
+
+.figmer .name-3 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: var(--neg-UI-11-medium-font-family);
+  font-weight: var(--neg-UI-11-medium-font-weight);
+  color: #ffffff;
+  font-size: var(--neg-UI-11-medium-font-size);
+  text-align: center;
+  letter-spacing: var(--neg-UI-11-medium-letter-spacing);
+  line-height: var(--neg-UI-11-medium-line-height);
+  white-space: nowrap;
+  font-style: var(--neg-UI-11-medium-font-style);
+}
+
+.figmer .frame-3 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  position: absolute;
+  top: 177px;
+  left: 27px;
+}
+
+.figmer .button-frame {
+  display: flex;
+  width: 89px;
+  height: 27px;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 7px 12px;
+  position: relative;
+  background-color: #000000;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.figmer .title {
+  position: relative;
+  width: fit-content;
+  margin-top: -2.5px;
+  margin-bottom: -0.5px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 600;
+  color: var(--white);
+  font-size: 11px;
+  text-align: center;
+  letter-spacing: 0.11px;
+  line-height: 16px;
+  white-space: nowrap;
+}
+
+.figmer .frame-4 {
+  display: flex;
+  flex-direction: column;
+  width: 352px;
+  align-items: flex-start;
+  gap: 20px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.figmer .frame-5 {
+  display: flex;
+  flex-direction: column;
+  width: 352px;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 12px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.figmer .layer-component-top {
+  position: relative;
+  width: 240px;
+  height: 40px;
+  overflow: hidden;
+}
+
+.figmer .caret {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: 8px;
+  left: 0;
+}
+
+.figmer .overlap-group-2 {
+  position: absolute;
+  width: 160px;
+  height: 43px;
+  top: -1px;
+  left: 40px;
+}
+
+.figmer .title-2 {
+  position: absolute;
+  height: 16px;
+  top: 27px;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: var(--black-8);
+  font-size: 9px;
+  letter-spacing: 0;
+  line-height: 16px;
+  white-space: nowrap;
+}
+
+.figmer .title-3 {
+  position: absolute;
+  width: 160px;
+  height: 32px;
+  top: 0;
+  left: 0;
+  font-family: "Poppins", Helvetica;
+  font-weight: 700;
+  color: var(--purple);
+  font-size: 15px;
+  letter-spacing: 0.07px;
+  line-height: 16px;
+}
+
+.figmer .layer-component {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: 8px;
+  left: 16px;
+}
+
+.figmer .union-6 {
+  position: absolute;
+  width: 11px;
+  height: 11px;
+  top: 3px;
+  left: 3px;
+}
+
+.figmer .frame-6 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 14px;
+  padding: 0px 22px;
+  position: relative;
+  flex: 0 0 auto;
+  margin-right: -25px;
+}
+
+.figmer .frame-7 {
+  display: flex;
+  width: 333px;
+  align-items: flex-start;
+  gap: 9px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.figmer .frame-8 {
+  position: relative;
+  flex: 0 0 auto;
+  margin-top: -0.67px;
+}
+
+.figmer .p {
+  position: relative;
+  width: 300px;
+  height: 45px;
+  margin-top: -1px;
+  font-family: "Rubik", Helvetica;
+  font-weight: 500;
+  color: #00000080;
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: 17px;
+}
+
+.figmer .title-4 {
+  position: relative;
+  width: 300px;
+  height: 48px;
+  margin-top: -1px;
+  font-family: "Rubik", Helvetica;
+  font-weight: 500;
+  color: #00000080;
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: 17px;
+}
+
+.figmer .title-5 {
+  position: absolute;
+  height: 16px;
+  top: 26px;
+  left: 40px;
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: var(--black-8);
+  font-size: 9px;
+  letter-spacing: 0;
+  line-height: 16px;
+  white-space: nowrap;
+}
+
+.figmer .title-6 {
+  position: absolute;
+  height: 16px;
+  top: 7px;
+  left: 40px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 700;
+  color: var(--purple);
+  font-size: 15px;
+  letter-spacing: 0.07px;
+  line-height: 16px;
+  white-space: nowrap;
+}
+
+.figmer .frame-9 {
+  display: flex;
+  width: 333px;
+  height: 42px;
+  gap: 9px;
+  align-items: flex-start;
+  position: relative;
+}
+
+.figmer .title-7 {
+  position: relative;
+  width: 300px;
+  height: 45px;
+  margin-top: -1px;
+  margin-bottom: -2px;
+  font-family: "Rubik", Helvetica;
+  font-weight: 500;
+  color: #00000080;
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: 17px;
+}
+
+.figmer .title-8 {
+  position: relative;
+  width: 300px;
+  height: 31px;
+  margin-top: -1px;
+  font-family: "Rubik", Helvetica;
+  font-weight: 500;
+  color: #00000080;
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: 17px;
+}
+
+.figmer .frame-10 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 19px;
+  position: absolute;
+  top: 177px;
+  left: 416px;
+}
+
+.figmer .frame-11 {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 15px;
+  flex: 0 0 auto;
+  align-items: flex-start;
+  position: relative;
+}
+
+.figmer .title-wrapper {
+  width: 89px;
+  display: flex;
+  height: 27px;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  padding: 6px 5px;
+  position: relative;
+  background-color: #000000;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.figmer .title-9 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.5px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 600;
+  color: var(--white);
+  font-size: 11px;
+  text-align: center;
+  letter-spacing: 0.11px;
+  line-height: 16px;
+  white-space: nowrap;
+}
+
+.figmer .frame-12 {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 10px;
+  flex: 0 0 auto;
+  align-items: flex-start;
+  position: relative;
+}
+
+.figmer .frame-13 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.figmer .title-10 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: var(--black-8);
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: 16px;
+  white-space: nowrap;
+}
+
+.figmer .title-11 {
+  position: relative;
+  width: fit-content;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: var(--black-8);
+  font-size: 9px;
+  letter-spacing: 0;
+  line-height: 16px;
+  white-space: nowrap;
+}
+
+.figmer .title-12 {
+  position: relative;
+  width: fit-content;
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: #00000080;
+  font-size: 9px;
+  letter-spacing: 0;
+  line-height: 16px;
+  white-space: nowrap;
+}
+
+.figmer .button-frame-2 {
+  width: 72px;
+  display: flex;
+  height: 27px;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  padding: 6px 5px;
+  position: relative;
+  background-color: #000000;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.figmer .frame-14 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.figmer .title-13 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: var(--black-8);
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: 16px;
+}
+
+.figmer .button-frame-3 {
+  width: 99px;
+  display: flex;
+  height: 27px;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  padding: 6px 5px;
+  position: relative;
+  background-color: #000000;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.figmer .span {
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #000000cc;
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: 16px;
+}
+
+.figmer .text-wrapper-2 {
+  text-decoration: underline;
+}
+
+.figmer .button-frame-4 {
+  width: 60px;
+  display: flex;
+  height: 27px;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  padding: 6px 5px;
+  position: relative;
+  background-color: #000000;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.figmer .frame-15 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.figmer .title-14 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #00000099;
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: 16px;
+  white-space: nowrap;
+}
+
+.figmer .title-15 {
+  position: relative;
+  width: fit-content;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #00000099;
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: 16px;
+  white-space: nowrap;
+}
+
+.figmer .button-frame-5 {
+  width: 92px;
+  display: flex;
+  height: 27px;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  padding: 6px 5px;
+  position: relative;
+  background-color: #000000;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.figmer .title-16 {
+  position: relative;
+  width: 161px;
+  margin-top: -1px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #00000099;
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: 16px;
+}
+
+.figmer .text-wrapper-3 {
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.figmer .text-wrapper-4 {
+  font-weight: 500;
+}
